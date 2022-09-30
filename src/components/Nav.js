@@ -1,10 +1,14 @@
 export default function Nav (props) {
   return (
     <>
-    <div>Link</div>
-    <div>Link</div>
-    <div>Link</div>
-    <div>Link</div>
+    <nav>
+    <div>Women's</div>
+    <div>Men's</div>
+    <div>On the street</div>
+    <div>The Catwalk</div>
+    <div>AdWatch</div>
+    <div>About</div>
+    </nav>
     </>
   )
 }

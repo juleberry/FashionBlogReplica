@@ -1,3 +1,24 @@
 body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+#companyInfo {
+  display: flex;
+  justify-content: center;
+  text-align: center
+}

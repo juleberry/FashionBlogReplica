@@ -6,8 +6,8 @@ import Nav from "../components/Nav";
 export  default function Main (props) {
   return (
     <>
-    <Nav />
     <Header />
+    <Nav />
     <Blog />
     <Footer />
     </>
