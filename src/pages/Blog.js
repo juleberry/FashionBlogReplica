@@ -1,14 +1,14 @@
-import Blog from "../components/Blog";
+import Main from "../components/Main";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 
-export  default function Main (props) {
+export  default function Blog (props) {
   return (
     <>
     <Header />
     <Nav />
-    <Blog />
+    <Main />
     <Footer />
     </>
   )

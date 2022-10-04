@@ -1,11 +1,11 @@
 import './style.css'
 import './App.css';
-import Main from './pages/Main';
+import Blog from './pages/Blog';
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <Blog />
     </div>
   );
 }

@@ -1,12 +1,70 @@
 body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  margin: auto;
+  font-family: sans-serif;
+  border-left: 5px solid lightgray;
+  min-height: 100vh;
+  max-width: 1000px;
 }
 
-nav {
+header, main, footer {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+
+}
+
+img {
+  width: 100%;
+}
+
+#continue a {
+  color: tomato;
+}
+
+h1 {
+  color: tomato;
+}
+
+article {
+  text-align: left;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+#entry::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: lightgray;
+}
+
+#blogTitle {
+  font-size: 2rem;
+}
+
+a, ul, li {
+  text-decoration: none;
+}
+
+li {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
   text-decoration: underline;
+}
+
+#topNav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+#topNav a {
+  color: lightgray;
 }
 
 footer {
@@ -17,8 +75,24 @@ footer {
   text-decoration: none;
 }
 
+#footerLinks {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+#footerLinks li {
+  text-decoration: none;
+  color: tomato;
+}
+
+#footerLinks a {
+  color: tomato;
+}
+
 #companyInfo {
   display: flex;
   justify-content: center;
-  text-align: center
+  text-align: center;
+  color: lightgray;
 }
