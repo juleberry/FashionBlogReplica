@@ -1,1 +1,1 @@
-# [Netlify Live Link] https://fashion-blog-wk10dy4.netlify.app/
+# [Netlify Live Link] https://fashionblog-wk10dy4.netlify.app/
